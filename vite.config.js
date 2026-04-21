@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => ({
   plugins: [react()],
   base:
     mode === 'production'
-      ? 'https://reposocratech.github.io/HTML-CSS-Quiz/'
+      ? 'https://sergio-jr-dev.github.io/HTML-CSS-Quiz/'
       : '/',
   css: {
     devSourcemap: true,
